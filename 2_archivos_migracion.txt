@@ -1,0 +1,3 @@
+repimexp /a O /u SADMIN /p Password01 /c SBA_82_DSN /d SIEBEL /r "Siebel Repository" /f D:\Siebel\ses\dbsrvr\ORACLE\custrep.dat /l D:\Siebel\ses\siebsrvr\log\exprep.log /v Y /Y SrcWorkspaceName=MAIN;SrcEndVer=;Lang=ALL 
+
+ddldict /u SADMIN /p Password01 /c SBA_82_DSN /d SIEBEL /f D:\Siebel\ses\dbsrvr\ORACLE\schema.ddl /e y /a y /l D:\Siebel\ses\siebsrvr\log\sch_dict.log /n "Siebel Repository" 

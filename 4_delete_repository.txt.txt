@@ -1,0 +1,7 @@
+RRCleanup -t 'SIEBEL' -u 'SADMIN' -p 'Password01' -r 'Prior Customer Repository' -o 'SBA_82_DSN' -s '/siebel/ses/siebsrvr' -b R
+
+RRCleanup -t 'SIEBEL' -u 'SADMIN' -p 'Password01' -r 'Prior Customer Repository' -o 'SBA_82_DSN' -s '/siebel/ses/siebsrvr' -b B
+
+RRCleanup -t 'SIEBEL' -u 'SADMIN' -p 'Password01' -o 'SBA_82_DSN' -s '/siebel/ses/siebsrvr' -a Y -b R
+
+RRCleanup -t 'SIEBEL' -u 'SADMIN' -p 'Password01' -o 'SBA_82_DSN' -s '/siebel/ses/siebsrvr' -a Y -b B
