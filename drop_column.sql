@@ -1,0 +1,12 @@
+alter table "SIEBEL"."CX_CALL_DETAIL" drop column "MESSAGE";
+alter table "SIEBEL"."CX_INTFLEX_EVNT" drop column "USER";
+alter table "SIEBEL"."CX_TG_AGREEMENT" drop column "RENEWAL_COMPANY";
+alter table "SIEBEL"."S_ASSESS_VAL" drop column "X_STATUS_SR";
+alter table "SIEBEL"."S_ASSESS_VAL" drop column "X_SUBSTATUS_SR";
+alter table "SIEBEL"."S_ASSESS_VAL" drop column "X_TG_VALUE_SR";
+alter table "SIEBEL"."S_LST_OF_VAL" drop column "X_ATTRIB_01";
+alter table "SIEBEL"."S_LST_OF_VAL" drop column "X_ATTRIB_02";
+alter table "SIEBEL"."S_LST_OF_VAL" drop column "X_ATTRIB_03";
+alter table "SIEBEL"."S_LST_OF_VAL" drop column "X_ATTRIB_04";
+alter table "SIEBEL"."S_LST_OF_VAL" drop column "X_ATTRIB_05";
+alter table "SIEBEL"."S_SRV_REQ_XM" drop column "X_ATTRIB_060";
